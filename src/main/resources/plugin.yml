@@ -1,0 +1,6 @@
+name: AntiCrops
+version: '1.0'
+main: ru.vayflare.antiCrops.AntiCrops
+api-version: '1.21'
+authors: [ Vayflare ]
+description: Bans players from trampling crops.

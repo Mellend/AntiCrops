@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="anticrops:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/anticrops_jar</output-path>
+    <root id="root">
+      <element id="archive" name="anticrops.jar">
+        <element id="module-output" name="anticrops" />
+      </element>
+    </root>
+  </artifact>
+</component>
