@@ -9,16 +9,6 @@ The first open-source plugin.
 2. Put the file `.jar` in folder `plugins` your server **Bukkit/Spigot/Paper**.
 3. Restart your server
 
-## For Maintainers
-### Code Style
-* All code should be [@NullMarked](https://jspecify.dev/docs/user-guide/#nullmarked) by default. That means,
-  unless the element is marked with [@Nullable](https://jspecify.dev/docs/user-guide/#nullable-and-nonnull) or [@NullUnmarked](https://jspecify.dev/docs/user-guide/#nullunmarked),
-  it should never be ```null```, also see [@CheckReturnValue](https://errorprone.info/bugpattern/CheckReturnValue)!
-  See [Applying JSpecify Nullness Annotations](https://jspecify.dev/docs/applying/) for more details.
-* Javadocs are preferred to have everywhere: classes, fields, methods, private elements, etc.
-* All new packages and classes should have ```@NullMarked``` annotations.
-* Also see [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-
 ## License
 This project is **Licensed under the** `GPL-3.0 License`. See the [**LICENSE**](LICENSE) file for details.
 
